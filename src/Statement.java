@@ -1,12 +1,15 @@
+//class for statements provided by the witness
 public class Statement {
    private String text;
    private boolean isContradictable;
    private int matchingEvidenceID;
+   private String press;
 
-    public Statement(String text, boolean isContradictable, int matchingEvidenceID){
+    public Statement(String text, boolean isContradictable, int matchingEvidenceID, String press){
         this.text=text;
         this.isContradictable=isContradictable;
         this.matchingEvidenceID=matchingEvidenceID;
+        this.press=press;
 
     }
 
@@ -25,5 +28,9 @@ public class Statement {
 
     public int getMatchingEvidenceID() {
         return matchingEvidenceID;
+    }
+
+    public String getPress() {
+        return press;
     }
 }

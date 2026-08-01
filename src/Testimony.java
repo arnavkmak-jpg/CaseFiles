@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//class for testimony which is a collection of statements
 public class Testimony {
     private String name;
     private ArrayList<Statement> statements = new ArrayList<>();
