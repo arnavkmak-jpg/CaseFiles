@@ -8,6 +8,9 @@ public class CaseFiles {
         Evidence evi1 = new Evidence("Blue umbrella","An umbrella that is blue in colour and is still wet with strange marks",1);
         Evidence evi2 = new Evidence("Ball","Description 2",2);
         Evidence evi3 = new Evidence("Statue","Description 3",3);
+        ArrayList<Evidence> evi = new ArrayList<>();
+
+
 //Witness no 1
         Statement stat0 = new Statement("I did this and that and that",false,-1,"I am sure of what I did");//-1 indicates non contradictable statement, any positive number corresponds to the evidence id
         Statement stat1 = new Statement("I saw her at 9:30 pm",false,-1,"I am sure of what I did");
@@ -19,8 +22,7 @@ public class CaseFiles {
         Testimony t1 =new Testimony("Smores Pie",s1);
 
         DetectiveWitness d =new DetectiveWitness("Detective",t1);
-        System.out.println(d.getRole()+" "+d.getTestimony1());
-        d.finish(1);
+
 //Witness no 2
         Statement stat3 = new Statement("test 3",false,-1,"I am sure of what I did");
         Statement stat4 = new Statement("test 4",true,2,"I am sure of what I did");
@@ -44,10 +46,16 @@ public class CaseFiles {
 
         CulpritWitness c1= new CulpritWitness("Witness",t2,t3);
 
-        System.out.println(c1.getRole()+" "+c1.getTestimony1());
-        c1.finish(1);
-        System.out.println(c1.getRole()+" "+c1.getTestimony2());
-        c1.finish(2);
+//        System.out.println(c1.getRole()+" "+c1.getTestimony1());
+//        c1.finish(1);
+//        System.out.println(c1.getRole()+" "+c1.getTestimony2());
+//        c1.finish(2);
+
+        Case mycase = new Case("The murder",d,c1,evi);
+
+        mycase.start();
+
+
 
 
 

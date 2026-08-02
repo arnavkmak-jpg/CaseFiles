@@ -1,4 +1,7 @@
+import java.util.Scanner;
+
 public class CulpritWitness extends Witness{
+    Scanner scanner = new Scanner(System.in);
     private Testimony testimony1;
     private Testimony testimony2;
 
@@ -11,14 +14,17 @@ public class CulpritWitness extends Witness{
     @Override
     void introduction() {
         System.out.println("The culprit");
+        scanner.nextLine();
     }
 
     @Override
     void finish(int testimonyNumber) {
         if (testimonyNumber==1){
             System.out.println("You won't get me that easily");
+            scanner.nextLine();
         } else if (testimonyNumber==2) {
             System.out.println("It can't be.....");
+            scanner.nextLine();
         }
     }
 

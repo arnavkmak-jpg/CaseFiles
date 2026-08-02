@@ -18,4 +18,12 @@ public class Testimony {
         return this.name+"\n"+result;
 
     }
+
+    public ArrayList<Statement> getStatements() {
+        return statements;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
