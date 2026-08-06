@@ -12,14 +12,14 @@ public class DetectiveWitness extends Witness{
     }
     @Override
     void introduction(){
-        System.out.println("Detective intro");
-        scanner.nextLine();
+        Case.displayText("Detective Pie: The name's Smores Pie, lead homicide detective for the district!");
+        Case.displayText("Detective Pie: Your Honor, before we begin, does anyone happen to have a spare doughnut?");
+        Case.displayText("Detective Pie: Regardless, the facts of this case are already completely open and shut");
 
     }
     @Override
     void finish(int testimonyNumber){
-        System.out.println("My mistake");
-        scanner.nextLine();
+        Case.displayText("Detective Pie: Oh man, the stress is making my blood sugar plummet. I... I need a sugar rush.");
     }
 
     @Override

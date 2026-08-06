@@ -13,18 +13,25 @@ public class CulpritWitness extends Witness{
 
     @Override
     void introduction() {
-        System.out.println("The culprit");
-        scanner.nextLine();
+        Case.displayText("Ah, Your Honor, The name is Artie Fisher.");
+        Case.displayText("I am a master art appraiser, I was Kara Larm's personal art consultant.");
     }
 
     @Override
     void finish(int testimonyNumber) {
         if (testimonyNumber==1){
-            System.out.println("You won't get me that easily");
-            scanner.nextLine();
+            Case.displayText("Fisher: Hmph! You lawyers have no appreciation for the abstract!");
+            Case.displayText("Fisher: Very well! I shall paint a picture so vivid, so undeniable...");
+            Case.displayText("Fisher: ...that even a blind critic would see the truth!");
+            Case.displayText("Fisher: Let me tell you exactly how the suspect reacted!");
+
         } else if (testimonyNumber==2) {
-            System.out.println("It can't be.....");
-            scanner.nextLine();
+            Case.displayText("Fisher: *Grips his beret tightly* S-Silence! You uncultured swine!");
+            Case.displayText("Fisher: She had no eye for true art! My brushstrokes were flawless! FLAWLESS!");
+            Case.displayText("Fisher: But she threatened to ruin me! To destroy my pristine reputation in the art world!");
+            Case.displayText("Fisher: (Tearing his beret in half) I couldn't let her do it!");
+            Case.displayText("Fisher: I picked up that hideous, tacky glass vase and I... I...");
+            Case.displayText("Fisher: I SHATTERED IT! I SHATTERED EVERYTHING!");
         }
     }
 
