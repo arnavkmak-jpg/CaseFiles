@@ -63,7 +63,7 @@ public class CaseFiles {
         s3.add(stat12);
         s3.add(stat13);
         s3.add(stat14);
-        Testimony t3 =new Testimony("Mr. Mare",s2);
+        Testimony t3 =new Testimony("Artie Fisher",s2);
 
 
         CulpritWitness c1= new CulpritWitness("Witness",t2,t3);
