@@ -9,8 +9,8 @@ A text based game built entirely in Java.
 4. **Penalty System**: GAME OVER if you receive 3 penalties total for each wrong evidence presented.
 
 ## Prerequisites:-
-For playing this game you must have **Java** installed on your computer
-* You can download the latest version [here](https://www.java.com/en/).
+For playing this game you must have **Java 24** installed on your computer
+* You can download it here [here](https://www.oracle.com/in/java/technologies/javase/jdk24-archive-downloads.html).
 
 ## How to Run the Game:-
 Since this is a console based game, you need to run it through your terminal.
