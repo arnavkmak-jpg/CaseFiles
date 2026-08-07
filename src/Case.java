@@ -72,7 +72,7 @@ public class Case {
         int i = 0;
         while (penalty>0&&contradictionCaught==false){
             System.out.println(witness.getRole()+" "+testimony.getName());
-            String healthBar = "❤️".repeat(penalty);
+            String healthBar = "[ ! ]".repeat(penalty);
             displayText(currentStatements.get(i).getText());
                 if (i==0){
                     System.out.println("[Enter: Next | P: Press | E: Evidence | I: How to Play]"+"[HEALTH:"+healthBar+"]");
@@ -129,7 +129,7 @@ public class Case {
                                     displayText("Judge: Objection overruled, defense!");
                                     displayText("Judge: That piece of evidence has absolutely nothing to do with this statement.");
                                     penalty--;
-                                    healthBar = "❤️".repeat(penalty);
+                                    healthBar = "[ ! ]".repeat(penalty);
                                     System.out.println("Health left: "+healthBar);
                                     System.out.println();
 
@@ -167,7 +167,7 @@ public class Case {
                             E       : View/Present evidence (Presenting evidence on contradictable statements is key part)
                             B       : Previous statement 
                             I       : Instructions 
-                            Health  : Displays by number of "❤️"s
+                            Health  : Displays by number of "[ ! ]"s
                             
                             Find lies in testimonies, open
                             evidence (E), and present the
@@ -218,7 +218,7 @@ public class Case {
                             E       : View/Present evidence (Presenting evidence on contradictable statements is key part)
                             B       : Previous statement 
                             I       : Instructions 
-                            Health  : Displays by number of "❤️"s
+                            Health  : Displays by number of "[ ! ]"s
                             
                             Find lies in testimonies, open
                             evidence (E), and present the
@@ -498,7 +498,7 @@ public class Case {
                 displayText("Judge: That makes absolutely no sense, defense!");
                 displayText("Judge: I am docking a penalty for wasting the court's time!");
                 penalty--;
-                System.out.println("Penalties left: " + "❤️".repeat(penalty));
+                System.out.println("Penalties left: " + "[ ! ]".repeat(penalty));
             }
 
         }
