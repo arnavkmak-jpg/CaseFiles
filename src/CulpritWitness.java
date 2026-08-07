@@ -13,8 +13,8 @@ public class CulpritWitness extends Witness{
 
     @Override
     void introduction() {
-        Case.displayText("Ah, Your Honor, The name is Artie Fisher.");
-        Case.displayText("I am a master art appraiser, I was Kara Larm's personal art consultant.");
+        Case.displayText("Fisher: Ah, Your Honor, The name is Artie Fisher.");
+        Case.displayText("Fisher: I am a master art appraiser, I was Kara Larm's personal art consultant.");
     }
 
     @Override
@@ -22,7 +22,7 @@ public class CulpritWitness extends Witness{
         if (testimonyNumber==1){
             Case.displayText("Fisher: Hmph! You lawyers have no appreciation for the abstract!");
             Case.displayText("Fisher: Very well! I shall paint a picture so vivid, so undeniable...");
-            Case.displayText("Fisher: ...that even a blind critic would see the truth!");
+            Case.displayText("...that even a blind critic would see the truth!");
             Case.displayText("Fisher: Let me tell you exactly how the suspect reacted!");
 
         } else if (testimonyNumber==2) {
@@ -31,7 +31,7 @@ public class CulpritWitness extends Witness{
             Case.displayText("Fisher: But she threatened to ruin me! To destroy my pristine reputation in the art world!");
             Case.displayText("Fisher: (Tearing his beret in half) I couldn't let her do it!");
             Case.displayText("Fisher: I picked up that hideous, tacky glass vase and I... I...");
-            Case.displayText("Fisher: I SHATTERED IT! I SHATTERED EVERYTHING!");
+            Case.displayText("...I SHATTERED IT! I SHATTERED EVERYTHING!");
         }
     }
 
