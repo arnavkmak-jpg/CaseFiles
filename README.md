@@ -29,7 +29,7 @@ You can achieve that by doing the following:-
 *   E    : View/Present evidence (Presenting evidence on contradictable statements is key part)
 *   B    : Previous statement 
 *   I    : Instructions 
-* Health : Displays by number of "❤️"s
+* Health : Displays by number of "[ ! ]"s
 
 Find lies in testimonies, open evidence (E), and present the correct item
 You have 3 penalties; reaching zero means Game Over!  
