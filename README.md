@@ -18,7 +18,7 @@ For playing this game you must have **Java 21** or higher installed on your comp
 Since this is a console based game, you need to run it through your terminal.
 
 You can achieve that by doing the following:-
-1. Locate the `CaseFilesAA.jar` file in the Game folder.
+1. Locate the `CaseFiles.jar` file in the Game folder.
 2. Open your computer's Terminal (Mac/Linux) or Command Prompt (Windows).
 3. Type `java -jar ` (make sure to leave a SPACE at the end).
 4. Drag and drop the `.jar` file into the terminal window to paste the file path.
