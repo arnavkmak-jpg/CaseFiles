@@ -12,7 +12,7 @@ dependency management and Java 21 compatibility.
 
 ## Prerequisites:-
 For playing this game you must have **Java 21** or higher installed on your computer
-* You can download it here [here]https://www.oracle.com/java/technologies/downloads/#java21).
+* You can download it here ([here]https://www.oracle.com/java/technologies/downloads/#java21).
 
 ## How to Run the Game:-
 Since this is a console based game, you need to run it through your terminal.
